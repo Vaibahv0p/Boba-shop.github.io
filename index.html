@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Boba Ordering</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Offer Slider -->
+
+    <section class="offer-slider-container">
+
+        <div class="offer-slider">
+
+            <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/0797c4f00ede83136901bd8b7f8ab45c6.jpeg" alt="Offer 1">
+
+            <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/12242a17cce07b76348afff98cb0e3fb6.jpeg" alt="Offer 2">
+
+            <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/2f811dad6af05af2d6ea2ad91ce86c0bc.jpeg" alt="Offer 3">
+
+     
+
+        </div>
+
+    </section>
+
+    <!-- Cup Selection -->
+
+    <section class="section" id="cup-section">
+
+        <h2>Select Your Cup</h2>
+
+        <div class="cup-options">
+
+            <div class="cup-option" id="small-cup">
+
+                <img src="https://cloud-1vgfbejb0-hack-club-bot.vercel.app/20a0aee0f192982b3c0a1390f4a43ca6d-removebg-preview.jpeg" alt="Small Cup">
+
+                <p>$4.99</p>
+
+            </div>
+
+            <div class="cup-option" id="medium-cup">
+
+                <img src="https://cloud-1vgfbejb0-hack-club-bot.vercel.app/0dfdb63a69bc1fefab5cc5a3f43bed1a7-removebg-prepview.jpeg" alt="Medium Cup">
+
+                <p>$5.99</p>
+
+            </div>
+
+            <div class="cup-option" id="large-cup">
+
+                <img src="https://cloud-1vgfbejb0-hack-club-bot.vercel.app/1ddab10e6346765adbae83c319682257b-removebg-preview.jpeg" alt="Large Cup">
+
+                <p>$6.99</p>
+
+            </div>
+
+        </div>
+
+        <button class="add-to-cart" data-option="cup">Add to Cart</button>
+
+    </section>
+
+    <!-- Flavor Selection -->
+
+    <section class="section" id="flavor-section">
+
+        <h2>Select Your Flavor</h2>
+
+        <div class="flavor-options">
+
+            <div class="flavor-option" id="strawberry">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/62f7c1bd0949d5c07ef88e64d4e0572f5.jpeg" alt="Strawberry Flavor">
+
+                <p>Strawberry</p>
+
+            </div>
+
+            <div class="flavor-option" id="matcha">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/2f811dad6af05af2d6ea2ad91ce86c0bc.jpeg" alt="Matcha Flavor">
+
+                <p>Matcha</p>
+
+            </div>
+
+            <div class="flavor-option" id="mango">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/8b0d600d663767dee1bb796325596b68f.jpeg" alt="Mango Flavor">
+
+                <p>Mango</p>
+
+            </div>
+
+        </div>
+
+        <button class="add-to-cart" data-option="flavor">Add to Cart</button>
+
+    </section>
+
+    <!-- Topping Selection -->
+
+    <section class="section" id="topping-section">
+
+        <h2>Select Your Topping</h2>
+
+        <div class="topping-options">
+
+            <div class="topping-option" id="boba">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/70edfed4cd551c776e5692a73cfeb7ebb.jpeg" alt="Boba Topping">
+
+                <p>Boba</p>
+
+            </div>
+
+            <div class="topping-option" id="jelly">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/452c950004e2908df4176976ed1fc48f1.jpeg" alt="Jelly Topping">
+
+                <p>Jelly</p>
+
+            </div>
+
+            <div class="topping-option" id="popping-boba">
+
+                <img src="https://cloud-5hly47wa9-hack-club-bot.vercel.app/3e933c817023a9795c10bee4ef9a862a6.jpeg" alt="Popping Boba">
+
+                <p>Popping Boba</p>
+
+            </div>
+
+        </div>
+
+        <button class="add-to-cart" data-option="topping">Add to Cart</button>
+
+    </section>
+
+    <!-- Order Summary -->
+
+    <div class="order-summary">
+
+        <h3>Order Summary</h3>
+
+        <p id="order-summary">No items selected.</p>
+
+    </div>
+
+    <!-- Buy Now Button -->
+
+    <button class="buy-now">Buy Now</button>
+
+    <!-- Modal for Customer Details -->
+
+    <div id="buy-modal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close-modal">&times;</span>
+
+            <h2>Enter Your Details</h2>
+
+            <form id="buy-form">
+
+                <input type="text" id="name" placeholder="Name" required>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <input type="text" id="address" placeholder="Address" required>
+
+                <button type="submit">Continue</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
